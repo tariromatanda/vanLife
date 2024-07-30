@@ -1,11 +1,72 @@
-.nav-bar{
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease;
+    font-family: "Inter", sans-serif;
+}
+
+.mainButton {
+    width: 100%;
+    padding: 10px;
+    background: #FF8C38;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.navBar {
     display: flex;
     justify-content: space-between;
+    padding: 20px 80px;
 
-    .navbar{
-        a{
-            text-decoration: none;
-            margin-right: 30px;
+    ul {
+        display: flex;
+        gap: 30px;
+
+        a {
+            color: #4d4d4d;
+            font-weight: 600;
         }
     }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.home {
+    background: url(./assets/hero-PNG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    // .home-inner{
+    //     margin: 0 40px;
+    // }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+}
+
+footer {
+    background: #252525;
+    color: #aaaaaa;
+    padding: 20px 80px;
+    text-align: center;
 }
