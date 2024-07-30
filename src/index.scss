@@ -1,0 +1,11 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+    .navbar{
+        a{
+            text-decoration: none;
+            margin-right: 30px;
+        }
+    }
+}
