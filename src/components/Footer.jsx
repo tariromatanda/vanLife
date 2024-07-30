@@ -1,10 +1,11 @@
-function Footer(){
-    return(
-        <footer>
-        <p>
-            © 2024 NyashaPetro #Vanlie
-        </p>
-        </footer>
-    )
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <footer>
+      <p>&copy; 2022 #VANLIFE</p>
+    </footer>
+  )
 }
-export default Footer;
+
+export default Footer
