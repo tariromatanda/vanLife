@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 const Navbar = () => {
   return (
     <section className="nav-bar">
@@ -11,7 +13,7 @@ const Navbar = () => {
         <a href="">Van</a>
       </nav>
     </section>
-  );
+  )
 }
 
 export default Navbar
