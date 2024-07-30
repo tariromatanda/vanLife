@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Nav from "./components/Navbar";
+import Second from "./components/About";
+import Explore from "./components/Explore";
+function App() { 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+  <>
+  <Nav />
+  <Hero/>
+  <Footer/>
 
-export default App
+  {/* <Van
+  pic={Cream}
+  vanName="Modest Explorer"
+  size="$60"
+  button={<SimpleBtn/>}
+  /> */}
+
+    
+
+  </>
+//     <>
+  
+// <Navbar />
+// <Hero />
+// <CardTwo />
+// <Challenge
+// name="nyasha"age="23"
+// money="usa"
+//  />
+// <Challenge name="blessing" age="10" money="rsa"
+//  />
+// <Challenge name="rutendo" age="20" money="zw"/>
+// <Challenge name="gaga" age="50" money="zig"/>
+//     </>
+  );
+}
+export default App;
