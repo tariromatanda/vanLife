@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from './Logo'
 
 const Navbar = () => {
     return (
         <nav className='navBar'>
             <Link to='/'>
-                <h1 className="logo">#VANLIFE</h1>
+                <Logo logoTitle={'#VANLIFE'}/>
             </Link>
 
             <ul>
