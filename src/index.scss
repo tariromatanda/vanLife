@@ -9,19 +9,21 @@
 }
 
 .mainButton {
-    width: 100%;
+    width: 30%;
     padding: 10px;
     background: #FF8C38;
     color: #fff;
     border: none;
     border-radius: 5px;
     font-weight: 600;
+    height: 50px;
 }
 
 .navBar {
     display: flex;
     justify-content: space-between;
     padding: 20px 80px;
+
 
     ul {
         display: flex;
@@ -51,9 +53,10 @@
     align-items: center;
     justify-content: center;
 
-    // .home-inner{
-    //     margin: 0 40px;
-    // }
+
+    .home-inner{
+        margin: 0 40px;
+    }
 
     h1 {
         font-size: 64px;
