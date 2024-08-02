@@ -6,8 +6,9 @@ import About from './pages/About'
 import Vans from './pages/Vans'
 import Footer from './components/Footer'
 
-const App = () => {
-  return (
+
+  const App = () => {
+return (
     <>
       <Router>
         <Navbar />
