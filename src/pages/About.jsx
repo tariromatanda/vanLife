@@ -27,7 +27,7 @@ const About = () => {
             <h2>Your van is ready.</h2>
           </div>
 
-          <Link to='/Vans'><MainButton title={"Explore our vans"} /></Link>
+          <Link to='/vans'><MainButton title={"Explore our vans"} /></Link>
           
         </div>
       </div>
