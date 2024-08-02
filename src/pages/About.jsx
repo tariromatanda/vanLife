@@ -1,7 +1,7 @@
 import React from 'react'
 import vanfront from '../assets/vanfront.png'
 import MainButton from "../components/MainButton";
-
+import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <div className="about">
@@ -27,7 +27,7 @@ const About = () => {
             <h2>Your van is ready.</h2>
           </div>
 
-          <MainButton title={"Explore our vans"} />
+          <Link to='/Vans'><MainButton title={"Explore our vans"} /></Link>
           
         </div>
       </div>
