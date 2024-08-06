@@ -1,6 +1,6 @@
 import React from 'react'
 import data from '../../data/beach'
-
+import { Link } from 'react-router-dom'
 const BeachCard = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const BeachCard = () => {
                     <h3>{card.price}<span>{card.day}</span></h3>
                     <p>{card.desc}</p>
                     <div className="rent">
-                    <button>{card.btn1}</button>
+                    <Link to='/signs'><button>{card.btn1}</button></Link>
                     </div>
                    
                 </div>
