@@ -15,6 +15,9 @@ import Van4 from './pages/vans/Van4'
 import Van5 from './pages/vans/Van5'
 import Van6 from './pages/vans/Van6'
 import Signs from './pages/signin/Signs'
+import Notfound from './pages/signin/Notfound'
+import Dashboard from './pages/Dashboards/Dashboard'
+
 const App = () => {
   return (
     <>
@@ -34,6 +37,8 @@ const App = () => {
           <Route exact path='/vans/van5' element={<Van5/>} />
           <Route exact path='/vans/van6' element={<Van6/>} />
           <Route exact path='/signin/signs' element={<Signs/>} />
+          <Route exact path='/signin/Notfound' element={<Notfound/>} />
+          <Route exact path ='/dashboard' element={<Dashboard/>} />
         </Routes>
         <Footer />
       </Router>
