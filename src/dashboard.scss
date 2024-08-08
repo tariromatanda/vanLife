@@ -2,6 +2,7 @@
 #Container {
     background: #fff7ed;
     display: flex;
+<<<<<<< HEAD
     flex-direction: column;
     justify-content: center;
     ul {
@@ -19,6 +20,21 @@
                 text-decoration: underline;
             }
         }
+=======
+    margin-left: 50px;
+    gap: 30px;
+
+    li {
+      cursor: pointer;
+    //   padding: 10px 20px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #fff7ed;
+        font-weight: 900;
+        text-decoration: underline;
+      }
+>>>>>>> 6c09465ffe70561efecc7332105f93429352da1c
     }
     .content {
         padding: 20px;
@@ -26,12 +42,38 @@
 }
 
 .incomeAndDetails {
+<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
+=======
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  margin-right: 20px;
+}
+
+.welcome {
+  margin-top: 50px;
+
+  background-color: #ffead0;
+  h2 {
+    padding-left: 50px;
+    font-size: 35px;
+    // margin-left: 20px;
+  }
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    // margin-left: 20px;
+    padding-left: 50px;
+  }
+>>>>>>> 6c09465ffe70561efecc7332105f93429352da1c
 }
 
 .reviewScore {
@@ -111,6 +153,7 @@
     justify-content: space-between;
     width: 100%;
 }
+<<<<<<< HEAD
 
 .income {
     display: flex;
@@ -226,3 +269,18 @@
         }
     }
 }
+=======
+.reviewScore {
+    
+      background-color: #ffddb2;
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      padding-left: 50px;
+      h2 {
+        padding-left: 70px;
+        font-size: 25px;
+       
+      }
+    }
+>>>>>>> 6c09465ffe70561efecc7332105f93429352da1c
