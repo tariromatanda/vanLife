@@ -9,7 +9,9 @@ const Home = () => {
           <p>Add adventure to your life by joining the #vanlife movement. Rent the perfect van to make your perfect road trip.</p>
           <MainButton title={"Find your van"} />
       </div>
+    
     </div>
+    
   )
 }
 

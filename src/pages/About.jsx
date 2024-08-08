@@ -28,11 +28,12 @@ const About = () => {
           </div>
 
           <MainButton title={"Explore our vans"} />
-          
+
         </div>
       </div>
     </div>
   );
 }
+
 
 export default About
