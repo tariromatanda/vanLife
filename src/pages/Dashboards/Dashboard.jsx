@@ -3,6 +3,7 @@ import DashboardCards from "../../components/DashboardCard";
 import cream from "../../assets/cream.png";
 import blue from "../../assets/blue.png";
 import green from "../../assets/green.png";
+import chart from "../../assets/Income Chart.png";
 
 const Dashboard = () => {
   const [activeTab, setActiveTab] = useState("dashboard");
@@ -61,9 +62,31 @@ const Dashboard = () => {
       )}
 
       {activeTab === "income" && (
-        <div>
-          <h2>Income Content</h2>
-          <p>11111111111111111111111111111111111111111111111111111</p>
+        <div className="income">
+         <h2>Income</h2>
+        <p>Last <strong>30 days</strong></p>
+        <h3>$2,260</h3>
+
+        <div className="chart">
+ <img src={chart} alt="" />
+        </div>
+
+        <section className="transactions">
+          <h3>Your transactions (3)</h3>
+          <p>Last <strong>30 days</strong></p>
+          <div className="transaction">
+            <span>$720</span>
+            <span>1/12/22</span>
+          </div>
+          <div className="transaction">
+            <span>$560</span>
+            <span>10/11/22</span>
+          </div>
+          <div className="transaction">
+            <span>$980</span>
+            <span>23/11/22</span>
+          </div>
+        </section>
         </div>
       )}
 
@@ -93,9 +116,33 @@ const Dashboard = () => {
       )}
 
       {activeTab === "reviews" && (
-        <div>
-          <h2>Reviews Content</h2>
-          <p>33333333333333333333333333333333333333333</p>
+        <div className="content">
+ 
+        <h2>Your reviews <span>last <a href="#">30 days</a></span></h2>
+        <div className="overall-rating">
+          <h3>5.0 <span>★ overall rating</span></h3>
+          <div className="rating-bar">
+            <div className="stars"><span>5 stars</span><div className="bar full" ></div><span>100%</span></div>
+            <div className="stars"><span>4 stars</span><div className="bar"></div><span>0%</span></div>
+            <div className="stars"><span>3 stars</span><div className="bar"></div><span>0%</span></div>
+            <div className="stars"><span>2 stars</span><div className="bar"></div><span>0%</span></div>
+            <div className="stars"><span>1 star</span><div className="bar"></div><span>0%</span></div>
+          </div>
+        </div>
+        <section className="review-list">
+          <h3>Reviews (2)</h3>
+          <div className="review">
+            <div className="stars">★★★★★</div>
+            <h4>Elliot <span>December 1, 2022</span></h4>
+            <p>The beach bum is such an awesome van! Such a comfortable trip. We had it for 2 weeks and there was not a single issue. Super clean when we picked it up and the host is very comfortable and understanding. Highly recommend!</p>
+          </div>
+          <div className="review">
+            <div className="stars">★★★★★</div>
+            <h4>Sandy <span>November 23, 2022</span></h4>
+            <p>This is our third time using the Modest Explorer for our travels and we love it! No complaints, absolutely perfect!</p>
+          </div>
+        </section>
+     
         </div>
       )}
     </div>
