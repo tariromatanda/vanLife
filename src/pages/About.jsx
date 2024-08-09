@@ -29,21 +29,11 @@ const About = () => {
             
           </div>
 
-<<<<<<< HEAD
-
-          <MainButton title={"Explore our vans"} />
-
-
-          <Link to='/vans'><MainButton title={"Explore our vans"} /></Link>
-          
-
-=======
 
         
 
 
           <Link to='/vans'><MainButton title={"Explore our vans"} /></Link>
->>>>>>> 6c09465ffe70561efecc7332105f93429352da1c
         </div>
       </div>
     </div>
