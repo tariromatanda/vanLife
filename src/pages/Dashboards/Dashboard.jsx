@@ -4,7 +4,7 @@ import cream from "../../assets/cream.png";
 import blue from "../../assets/blue.png";
 import green from "../../assets/green.png";
 import chart from "../../assets/Income Chart.png";
-
+import { Link } from "react-router-dom";
 const Dashboard = () => {
   const [activeTab, setActiveTab] = useState("dashboard");
 
@@ -27,7 +27,7 @@ const Dashboard = () => {
             <h1>$2,260</h1>
             <div className="reviewScore">
               <h3>
-                Review score ⭐5.0/<span>5</span>
+                Review score  <span className="star"> ★</span>5.0<span className="five">/5</span>
               </h3>
               <p>Details</p>
             </div>
@@ -38,12 +38,13 @@ const Dashboard = () => {
               <p>view all</p>
             </div>
             <div className="cardWrapper">
-              <DashboardCards
+           <DashboardCards
                 pic={cream}
                 vanName={"Modest Explorer"}
                 price={"$60/day"}
                 editText={"Edit"}
               />
+              
               <DashboardCards
                 pic={blue}
                 vanName={"Beach Bum"}
@@ -94,23 +95,27 @@ const Dashboard = () => {
         <div>
           <div className="listedVanContainer">
             <div className="viewall">
-              <h2>Your listed van</h2>
+              <h2 className="h2">Your listed van</h2>
             </div>
+             <Link to='/modest'>
             <DashboardCards
+            
               pic={cream}
               vanName={"Modest Explorer"}
               price={"$60/day"}
-            />
+            /></Link>
+            <Link to='/beachbum'>
             <DashboardCards
               pic={blue}
               vanName={"Beach Bum"}
               price={"$80/day"}
-            />
+            /></Link>
+            <Link to='/greenwonder'>
             <DashboardCards
               pic={green}
               vanName={"Green Wonder"}
               price={"$70/day"}
-            />
+            /></Link>
           </div>
         </div>
       )}

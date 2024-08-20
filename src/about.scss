@@ -48,8 +48,6 @@
                 margin-top: 10px;
                 width:600px;
                 } 
-               
-        
             }
 
             .mainButton {
@@ -64,11 +62,35 @@
                 margin: 0 50px;
                 margin-top: 30px;
                 }
-    
+            
         }                                           
-
+        
     }
 }
 
 
+
+
+
+
+@media (max-width: 568px){
+    .about{
+        .about-inner{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size:20px;
+            }
+
+            .card{
+                .text{
+                    h2{
+                       font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
 
