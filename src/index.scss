@@ -74,3 +74,18 @@ footer {
     padding: 20px 80px;
     text-align: center;
 }
+
+
+@media (max-width: 568px) {
+    .home{
+        .home-inner{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    
+}
