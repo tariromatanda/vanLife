@@ -27,7 +27,7 @@ const Dashboard = () => {
             <h1>$2,260</h1>
             <div className="reviewScore">
               <h3>
-                Review score ⭐5.0/<span>5</span>
+                Review score  <span className="star"> ★</span>5.0<span className="five">/5</span>
               </h3>
               <p>Details</p>
             </div>
@@ -95,7 +95,7 @@ const Dashboard = () => {
         <div>
           <div className="listedVanContainer">
             <div className="viewall">
-              <h2>Your listed van</h2>
+              <h2 className="h2">Your listed van</h2>
             </div>
              <Link to='/modest'>
             <DashboardCards
