@@ -11,11 +11,11 @@ const Dashboard = () => {
   return (
     <div id="Container">
       <ul className="Tabs">
-        <li onClick={() => setActiveTab("dashboard")}>Dashboard</li>
-        <li onClick={() => setActiveTab("income")}>Income</li>
-        <li onClick={() => setActiveTab("vans")}>Vans</li>
-        <li onClick={() => setActiveTab("reviews")}>Reviews</li>
-      </ul>
+  <li className={activeTab === "dashboard" ? "active" : ""} onClick={() => setActiveTab("dashboard")}>Dashboard</li>
+  <li className={activeTab === "income" ? "active" : ""} onClick={() => setActiveTab("income")}>Income</li>
+  <li className={activeTab === "vans" ? "active" : ""} onClick={() => setActiveTab("vans")}>Vans</li>
+  <li className={activeTab === "reviews" ? "active" : ""} onClick={() => setActiveTab("reviews")}>Reviews</li>
+</ul>
       {activeTab === "dashboard" && (
         <div>
           <div className="welcome">
