@@ -837,10 +837,42 @@
         transition: background-color 0.3s, color 0.3s;
         &:hover {
             background-color: #f0f0f0;
+            border-radius: 20px;
         }
         &.active {
             background-color: #ffa500;
             color: white;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
         }
     }
+}
+
+.chart img {
+    max-width: 100%;
+    /* Ensures image never exceeds its container width */
+    height: auto;
+    /* Maintain aspect ratio by letting height adjust automatically */
+}
+
+.Tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;
+    /* Enable horizontal scrolling if needed */
+}
+
+.Tabs li {
+    flex: 1;
+    /* Distribute space evenly among tabs */
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    /* Add a border for the active tab */
+    cursor: pointer;
 }
