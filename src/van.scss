@@ -1,90 +1,114 @@
+// Vans page
 #rugged {
     padding: 70px 80px;
-
+    @media (max-width: 768px) {
+        padding: 50px 40px;
+    }
+    @media (max-width: 480px) {
+        padding: 30px 20px;
+    }
     .simmple {
         margin: 20px 0px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        .simple {
-            button {
-                padding: 10px 60px;
-                font-size: 20px;
-                background: #FFEAD0;
-                color: #757371;
-                border: none;
-                border-radius: 10px;
-            }
-
+        @media (max-width: 768px) {
+            flex-wrap: wrap;
+            gap: 10px;
         }
-
-        .luxury {
-            button {
-                padding: 10px 60px;
-                font-size: 20px;
-                background: #FFEAD0;
-                color: #757371;
-                border: none;
-                border-radius: 10px;
-            }
-        }
-
+        .simple,
+        .luxury,
         .rugged {
             button {
-                padding: 10px 60px;
-                font-size: 20px;
+                padding: 10px 40px;
+                font-size: 18px;
                 background: #FFEAD0;
                 color: #757371;
                 border: none;
                 border-radius: 10px;
+                transition: background-color 0.3s, color 0.3s;
+                &:hover {
+                    background-color: #FF8C38;
+                    color: #fff;
+                }
+                @media (max-width: 768px) {
+                    padding: 8px 30px;
+                    font-size: 16px;
+                }
+                @media (max-width: 480px) {
+                    padding: 6px 20px;
+                    font-size: 14px;
+                }
             }
         }
-
         .clear {
             button {
-                padding: 10px 60px;
+                padding: 10px 40px;
                 color: #757371;
                 background: none;
-                font-size: 20px;
+                font-size: 18px;
                 border: none;
                 text-decoration: underline;
+                transition: color 0.3s;
+                &:hover {
+                    color: #FF8C38;
+                }
+                @media (max-width: 768px) {
+                    padding: 8px 30px;
+                    font-size: 16px;
+                }
+                @media (max-width: 480px) {
+                    padding: 6px 20px;
+                    font-size: 14px;
+                }
             }
         }
     }
-
     .cardContainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         margin: 20px 0px;
-
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
         img {
-            width: 100%;
+            width: 80%;
             border-radius: 10px;
         }
-
         .textBox {
             display: flex;
-
             justify-content: space-between;
-
+            align-items: center;
+            @media (max-width: 768px) {
+                flex-direction: column;
+                align-items: flex-start;
+            }
             .first {
                 margin: 10px 0px;
-
                 button {
                     margin: 10px 0px;
-                    padding: 10px 60px;
-                    font-size: 20px;
+                    padding: 10px 40px;
+                    font-size: 18px;
                     background: #FFEAD0;
                     color: #91887E;
                     border: none;
                     border-radius: 10px;
+                    transition: background-color 0.3s, color 0.3s;
+                    &:hover {
+                        background-color: #FF8C38;
+                        color: #fff;
+                    }
+                    @media (max-width: 768px) {
+                        padding: 8px 30px;
+                        font-size: 16px;
+                    }
+                    @media (max-width: 480px) {
+                        padding: 6px 20px;
+                        font-size: 14px;
+                    }
                 }
-
-
             }
-
             .day {
                 margin: 0px;
             }
@@ -92,68 +116,107 @@
     }
 }
 
-
+// Single Van page
 #single {
     padding: 70px 80px;
-
+    @media (max-width: 768px) {
+        padding: 50px 40px;
+    }
+    @media (max-width: 480px) {
+        padding: 30px 20px;
+    }
     .back {
         margin: 10px 0px;
-
         .arrow {
             display: flex;
             align-items: center;
             width: 100%;
             gap: 5px;
-
             img {
                 width: 1%;
             }
         }
-
         .card {
             margin: 20px 0px;
-h2{
-    margin: 10px 0px;
-    font-size: 30px;
-    font-weight: 800;
-}
-h3{
-    font-weight: 800;
-    margin: 10px 0px;
-    span{
-        font-weight: 400;
-    }
-}
-p{
-    margin: 10px 0px;
-}
+            h2 {
+                margin: 10px 0px;
+                font-size: 30px;
+                font-weight: 800;
+                @media (max-width: 768px) {
+                    font-size: 24px;
+                }
+                @media (max-width: 480px) {
+                    font-size: 20px;
+                }
+            }
+            h3 {
+                font-weight: 800;
+                margin: 10px 0px;
+                span {
+                    font-weight: 400;
+                }
+                @media (max-width: 768px) {
+                    font-size: 18px;
+                }
+                @media (max-width: 480px) {
+                    font-size: 16px;
+                }
+            }
+            p {
+                margin: 10px 0px;
+                @media (max-width: 768px) {
+                    font-size: 16px;
+                }
+                @media (max-width: 480px) {
+                    font-size: 14px;
+                }
+            }
             img {
                 width: 100%;
             }
-
             button {
                 margin: 10px 0px;
-                padding: 10px 60px;
-                font-size: 20px;
+                padding: 10px 40px;
+                font-size: 18px;
                 background: #FFEAD0;
                 color: #757371;
                 border: none;
                 border-radius: 10px;
+                transition: background-color 0.3s, color 0.3s;
+                &:hover {
+                    background-color: #FF8C38;
+                    color: #fff;
+                }
+                @media (max-width: 768px) {
+                    padding: 8px 30px;
+                    font-size: 16px;
+                }
+                @media (max-width: 480px) {
+                    padding: 6px 20px;
+                    font-size: 14px;
+                }
             }
-
             .rent {
                 width: 100%;
-
                 button {
                     width: 100%;
                     background: #FF8C38;
                     color: #fff;
                     font-size: 25px;
-                    font-family: 700;
+                    font-weight: 700;
                     border: none;
+                    transition: background-color 0.3s;
+                    &:hover {
+                        background-color: darken(#FF8C38, 10%);
+                    }
+                    @media (max-width: 768px) {
+                        font-size: 20px;
+                    }
+                    @media (max-width: 480px) {
+                        font-size: 18px;
+                    }
                 }
             }
         }
     }
-
 }
