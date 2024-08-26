@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:wght@100..900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -22,22 +21,74 @@
 .navBar {
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px;
-
-
+    padding: 20px 50px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    .links {
+        padding-top: 3px;
+        display: flex;
+        gap: 30px;
+        font-weight: 600;
+        .about {
+            display: flex;
+        }
+        .host {
+            visibility: hidden;
+        }
+        .contact {
+            display: none;
+        }
+    }
     ul {
         display: flex;
         gap: 30px;
-
         a {
             color: #4d4d4d;
             font-weight: 600;
+            transition: color 0.3s ease;
         }
     }
-
     a {
         text-decoration: none;
         color: #000;
+        transition: color 0.3s ease;
+    }
+    @media (max-width: 768px) {
+        .navBar {
+            padding: 15px 40px;
+        }
+        .links {
+            gap: 20px;
+        }
+        .navBar ul {
+            gap: 20px;
+        }
+    }
+    @media (max-width: 480px) {
+        .navBar {
+            padding: 10px 100px;
+            gap: 10rem;
+        }
+        .nav {
+            display: flex;
+        }
+        .logo {
+            font-size: medium;
+            padding-right: 2rem;
+        }
+        .links {
+            gap: 15px;
+            font-size: small;
+        }
+        .links .host {
+            visibility: visible;
+        }
+        .links .contact {
+            display: block;
+        }
+        .navBar ul {
+            gap: 15px;
+        }
     }
 }
 
@@ -52,19 +103,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
-    .home-inner{
+    .home-inner {
         margin: 0 40px;
+        text-align: center;
     }
-
     h1 {
         font-size: 64px;
+        text-align: left;
     }
-
     p {
         font-size: 28px;
         margin: 30px 0;
+        text-align: left;
     }
 }
 
@@ -75,31 +125,15 @@ footer {
     text-align: center;
 }
 
-
 @media (max-width: 568px) {
-    .home{
-        .home-inner{
-            h1{
+    .home {
+        .home-inner {
+            h1 {
                 font-size: 30px;
             }
-            p{
+            p {
                 font-size: 20px;
             }
         }
     }
-    
-}
-
-@media (max-width: 768px) {
-    .home{
-        .home-inner{
-            h1{
-                font-size: 30px;
-            }
-            p{
-                font-size: 20px;
-            }
-        }
-    }
-    
 }
