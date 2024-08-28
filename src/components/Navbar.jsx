@@ -21,7 +21,7 @@ const Navbar = () => {
             </ul>
             </div>
             <div className="contact">
-                <Link to ="#">Contact</Link>
+                <Link to ="#"></Link>
             </div>
             </div>
         </nav>
