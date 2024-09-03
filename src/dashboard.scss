@@ -911,3 +911,1123 @@
                 border-radius: 5px;
             }
         }
+///////////////////dashboard scss
+#Container {
+    background: #fff7ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    ///////////////////dashboard scss
+    ///
+    body {
+        @media (max-width: 425px) {
+            ul {
+                gap: 0;
+            }
+        }
+    }
+    #Container {
+        background: #fff7ed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 30px;
+            .Tabs {
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                // gap: 30px;
+                margin-left: 55px;
+                li {
+                    cursor: pointer;
+                    //   padding: 10px 20px;
+                    transition: all 0.3s ease;
+                    li {
+                        cursor: pointer;
+                        //   padding: 10px 20px;
+                        transition: all 0.3s ease;
+                        &:hover {
+                            background-color: #fff7ed;
+                            font-weight: 900;
+                            text-decoration: underline;
+                        }
+                        &:hover {
+                            background-color: #fff7ed;
+                            font-weight: 900;
+                            text-decoration: underline;
+                        }
+                        &:active {
+                            background-color: #fff7ed;
+                            font-weight: 900;
+                            text-decoration: underline;
+                        }
+                    }
+                    &:active {}
+                    li {
+                        cursor: pointer;
+                        //   padding: 10px 20px;
+                        transition: all 0.3s ease;
+                        &:hover {
+                            background-color: #fff7ed;
+                            font-weight: 900;
+                            text-decoration: underline;
+                        }
+                    }
+                    margin-left: 50px;
+                    gap: 30px;
+                    // li {
+                    //     cursor: pointer;
+                    //     //   padding: 10px 20px;
+                    //     transition: all 0.3s ease;
+                    //     &:hover {
+                    //         background-color: #fff7ed;
+                    //         font-weight: 900;
+                    //         text-decoration: underline;
+                    //     }
+                    // }
+                }
+                margin-left: 50px;
+                gap: 30px;
+                // li {
+                //     cursor: pointer;
+                //     //   padding: 10px 20px;
+                //     transition: all 0.3s ease;
+                //     &:hover {
+                //         background-color: #fff7ed;
+                //         font-weight: 900;
+                //         text-decoration: underline;
+                //     }
+                // }
+            }
+            .content {
+                padding: 20px;
+            }
+        }
+        .content {
+            padding: 20px;
+        }
+    }
+    .incomeAndDetails {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 50px;
+        margin-right: 20px;
+    }
+    .five {
+        color: #4d4d4d;
+    }
+    .h2 {
+        padding-left: 25px;
+    }
+    .incomeAndDetails {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 30px;
+        margin-right: 20px;
+    }
+    .welcome {
+        margin-top: 50px;
+        background-color: #ffead0;
+        .star {
+            color: orange;
+        }
+        .welcome {
+            margin-top: 50px;
+            background-color: #ffead0;
+            h2 {
+                padding-left: 50px;
+                font-size: 35px;
+                // margin-left: 20px;
+            }
+            h2 {
+                padding-left: 40px;
+                font-size: 35px;
+                // margin-left: 20px;
+            }
+            h1 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                // margin-left: 20px;
+                padding-left: 50px;
+            }
+        }
+        h1 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            // margin-left: 20px;
+            padding-left: 40px;
+        }
+    }
+    .reviewScore {
+        background-color: #ffddb2;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        .reviewScore {
+            background-color: #ffddb2;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            h2 {
+                font-size: 25px;
+            }
+        }
+        padding: 110px;
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .welcome {
+        margin-top: 50px;
+        background-color: #ffead0;
+        .welcome {
+            margin-top: 50px;
+            background-color: #ffead0;
+            h2 {
+                font-size: 35px;
+                margin-left: 20px;
+            }
+            h2 {
+                font-size: 35px;
+                margin-left: 10px;
+            }
+            h1 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 20px;
+            }
+        }
+        h1 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+    }
+    .cardWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cardWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Tabs {
+        list-style: none;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+    .Tabs {
+        list-style: none;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        // padding-left: 50px;
+        margin-left: 20px;
+    }
+    .cardContainer {
+        text-align: center;
+        margin-left: 35px;
+        padding: 20px;
+        background-color: #fff;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 10px;
+        .cardContainer {
+            text-align: center;
+            margin-left: 35px;
+            padding: 20px;
+            background-color: #fff;
+            width: 95%;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 10px;
+            img {
+                width: 10%;
+                border-radius: 5px;
+            }
+            img {
+                width: 10%;
+                border-radius: 5px;
+            }
+            .text {
+                div {
+                    p {
+                        color: #4d4d4d;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .text {
+            div {
+                p {
+                    color: #4d4d4d;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .viewall {
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        .viewall {
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            h2 {
+                font-size: 28px;
+            }
+        }
+        h2 {
+            font-size: 28px;
+        }
+    }
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .reviewScore {
+        background-color: #ffddb2;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        padding-left: 50px;
+        .reviewScore {
+            background-color: #ffddb2;
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            padding-left: 50px;
+            h2 {
+                padding-left: 70px;
+                font-size: 25px;
+            }
+        }
+        h2 {
+            padding-left: 700px;
+            font-size: 25px;
+        }
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8efe9;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8efe9;
+    }
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .content {
+        flex: 1;
+        padding: 20px;
+        .content {
+            flex: 1;
+            padding: 20px;
+            h2 {
+                font-size: 24px;
+                display: flex;
+                justify-content: space-between;
+            }
+            h2 {
+                font-size: 24px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .overall-rating {
+                margin-top: 20px;
+                .overall-rating {
+                    margin-top: 20px;
+                    h3 {
+                        font-size: 48px;
+                        display: flex;
+                        align-items: center;
+                        h3 {
+                            font-size: 48px;
+                            display: flex;
+                            align-items: center;
+                            span {
+                                font-size: 24px;
+                                color: orange;
+                                margin-left: 10px;
+                            }
+                        }
+                        span {
+                            font-size: 24px;
+                            color: orange;
+                            margin-left: 10px;
+                        }
+                    }
+                    .rating-bar {
+                        margin-top: 10px;
+                        .rating-bar {
+                            margin-top: 10px;
+                            .stars {
+                                display: flex;
+                                align-items: center;
+                                margin-bottom: 5px;
+                                .stars {
+                                    display: flex;
+                                    align-items: center;
+                                    margin-bottom: 5px;
+                                    span {
+                                        width: 60px;
+                                    }
+                                    span {
+                                        width: 60px;
+                                    }
+                                    .bar {
+                                        flex: 1;
+                                        height: 10px;
+                                        background-color: #ccc;
+                                        margin: 0 10px;
+                                        .bar {
+                                            flex: 1;
+                                            height: 10px;
+                                            background-color: #ccc;
+                                            margin: 0 10px;
+                                            &.full {
+                                                background-color: orange;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.full {
+                                background-color: orange;
+                            }
+                        }
+                    }
+                }
+            }
+            .review-list {
+                margin-top: 40px;
+                .review-list {
+                    margin-top: 40px;
+                    h3 {
+                        margin-bottom: 20px;
+                    }
+                    h3 {
+                        margin-bottom: 20px;
+                    }
+                    .review {
+                        margin-bottom: 20px;
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #ccc;
+                        .review {
+                            margin-bottom: 20px;
+                            padding-bottom: 20px;
+                            border-bottom: 1px solid #ccc;
+                            .stars {
+                                color: orange;
+                                font-size: 20px;
+                            }
+                            .stars {
+                                color: orange;
+                                font-size: 20px;
+                            }
+                            h4 {
+                                font-weight: bold;
+                                margin: 10px 0;
+                                h4 {
+                                    font-weight: bold;
+                                    margin: 10px 0;
+                                    span {
+                                        font-weight: normal;
+                                        color: #555;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    span {
+                        font-weight: normal;
+                        color: #555;
+                    }
+                }
+            }
+        }
+    }
+    .income {
+        padding: 20px;
+    }
+    .income {
+        padding: 20px;
+    }
+    .income h1,
+    .income h2,
+    .income h3,
+    .income p {
+        margin: 0 0 10px;
+    }
+    .income h1,
+    .income h2,
+    .income h3,
+    .income p {
+        margin: 0 0 10px;
+    }
+    .income a {
+        text-decoration: underline;
+        color: #333;
+    }
+    .income a {
+        text-decoration: underline;
+        color: #333;
+    }
+    .transactions {
+        margin: 20px 0;
+    }
+    .transactions {
+        margin: 20px 0;
+    }
+    .transaction {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .transaction {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .transaction .amount {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .transaction .amount {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .transaction .date {
+        font-size: 16px;
+        color: #888;
+    }
+    .listedContainer {
+        display: none;
+    }
+    .arrow {
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+        img {
+            width: 1%;
+        }
+    }
+    .xplorer {
+        margin: 40px 40px 0px 40px;
+        border-radius: 20px 20px 0px 0px;
+        background: #fff;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .cream {
+            width: 100%;
+            img {
+                width: 50%;
+            }
+        }
+        .sixty {
+            width: 100%;
+            position: relative;
+            right: 240px;
+            button {
+                padding: 10px 20px;
+                font-size: 20px;
+                background: #e17856;
+                color: #fff;
+                font-weight: 700;
+                border: none;
+                border-radius: 10px;
+            }
+            .rug {
+                background: #115c57;
+            }
+            h1 {
+                margin: 40px 0pc;
+                font-weight: 900;
+                font-size: 35px;
+            }
+            h2 {
+                margin: 40px 0px;
+                font-weight: 900;
+                font-size: 30px;
+                span {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .tabscontainer {
+        background: #fff;
+        margin: 0px 40px 40px 40px;
+        border-radius: 0px 0px 40px 40px;
+        display: flex;
+        flex-direction: column;
+        .details {
+            padding: 30px;
+            h2 {
+                margin-top: 30px;
+                font-size: 30px;
+                font-weight: 800;
+                span {
+                    font-weight: 400;
+                }
+            }
+            p {
+                margin: 20px 0px;
+                font-size: 20px;
+                font-weight: 800;
+                width: 80%;
+                span {
+                    font-weight: 400;
+                }
+            }
+        }
+        .pricing {
+            padding: 50px 30px;
+            h2 {
+                margin-top: 30px;
+                font-size: 30px;
+                font-weight: 800;
+                span {
+                    font-weight: 400;
+                }
+            }
+        }
+        .photos {
+            padding: 50px 30px;
+        }
+    }
+    .transaction .date {
+        font-size: 16px;
+        color: #888;
+    }
+    .listedContainer {
+        display: none;
+    }
+    .arrow {
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+        img {
+            width: 1%;
+        }
+    }
+    .xplorer {
+        margin: 40px 40px 0px 40px;
+        border-radius: 20px 20px 0px 0px;
+        background: #fff;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .cream {
+            width: 100%;
+            img {
+                width: 50%;
+            }
+        }
+        .sixty {
+            width: 100%;
+            position: relative;
+            right: 240px;
+            button {
+                padding: 10px 20px;
+                font-size: 20px;
+                background: #e17856;
+                color: #fff;
+                font-weight: 700;
+                border: none;
+                border-radius: 10px;
+            }
+            .rug {
+                background: #115c57;
+            }
+            h1 {
+                margin: 40px 0pc;
+                font-weight: 900;
+                font-size: 35px;
+            }
+            h2 {
+                margin: 40px 0px;
+                font-weight: 900;
+                font-size: 30px;
+                span {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .tabscontainer {
+        background: #fff;
+        margin: 0px 40px 40px 40px;
+        border-radius: 0px 0px 40px 40px;
+        display: flex;
+        flex-direction: column;
+        .details {
+            padding: 30px;
+            h2 {
+                margin-top: 30px;
+                font-size: 30px;
+                font-weight: 800;
+                span {
+                    font-weight: 400;
+                }
+            }
+            p {
+                margin: 20px 0px;
+                font-size: 20px;
+                font-weight: 800;
+                width: 80%;
+                span {
+                    font-weight: 400;
+                }
+            }
+        }
+        .pricing {
+            padding: 50px 30px;
+            h2 {
+                margin-top: 30px;
+                font-size: 30px;
+                font-weight: 800;
+                span {
+                    font-weight: 400;
+                }
+            }
+        }
+        .photos {
+            padding: 50px 30px;
+        }
+    }
+}
+                                                            ///////////////////dashboard scss
+                                                            #Container {
+                                                                background: #fff7ed;
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                justify-content: center;
+                                                                ul {
+                                                                    list-style-type: none;
+                                                                    padding: 0;
+                                                                    display: flex;
+                                                                    gap: 30px;
+                                                                    li {
+                                                                        cursor: pointer;
+                                                                        //   padding: 10px 20px;
+                                                                        transition: all 0.3s ease;
+                                                                        &:hover {
+                                                                            background-color: #fff7ed;
+                                                                            font-weight: 900;
+                                                                            text-decoration: underline;
+                                                                        }
+                                                                    }
+                                                                    margin-left: 50px;
+                                                                    gap: 30px;
+                                                                    li {
+                                                                        cursor: pointer;
+                                                                        //   padding: 10px 20px;
+                                                                        transition: all 0.3s ease;
+                                                                        &:hover {
+                                                                            background-color: #fff7ed;
+                                                                            font-weight: 900;
+                                                                            text-decoration: underline;
+                                                                        }
+                                                                    }
+                                                                }
+                                                                .content {
+                                                                    padding: 20px;
+                                                                }
+                                                            }
+                                                            
+                                                            .incomeAndDetails {
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                margin-top: 10px;
+                                                                margin-bottom: 10px;
+                                                                margin-left: 20px;
+                                                                margin-right: 20px;
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                margin-top: 10px;
+                                                                margin-bottom: 10px;
+                                                                padding-left: 50px;
+                                                                margin-right: 20px;
+                                                            }
+                                                            
+                                                            .welcome {
+                                                                margin-top: 50px;
+                                                                background-color: #ffead0;
+                                                                h2 {
+                                                                    padding-left: 50px;
+                                                                    font-size: 35px;
+                                                                    // margin-left: 20px;
+                                                                }
+                                                                h1 {
+                                                                    margin-top: 10px;
+                                                                    margin-bottom: 10px;
+                                                                    // margin-left: 20px;
+                                                                    padding-left: 50px;
+                                                                }
+                                                            }
+                                                            
+                                                            .reviewScore {
+                                                                background-color: #ffddb2;
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                padding: 20px;
+                                                                h2 {
+                                                                    font-size: 25px;
+                                                                }
+                                                            }
+                                                            
+                                                            .welcome {
+                                                                margin-top: 50px;
+                                                                background-color: #ffead0;
+                                                                h2 {
+                                                                    font-size: 35px;
+                                                                    margin-left: 20px;
+                                                                }
+                                                                h1 {
+                                                                    margin-top: 10px;
+                                                                    margin-bottom: 10px;
+                                                                    margin-left: 20px;
+                                                                }
+                                                            }
+                                                            
+                                                            .cardWrapper {
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                justify-content: center;
+                                                            }
+                                                            
+                                                            .Tabs {
+                                                                list-style: none;
+                                                                margin-top: 40px;
+                                                                margin-bottom: 30px;
+                                                                padding-left: 20px;
+                                                                margin-left: 20px;
+                                                            }
+                                                            
+                                                            .cardContainer {
+                                                                text-align: center;
+                                                                margin-left: 35px;
+                                                                padding: 20px;
+                                                                background-color: #fff;
+                                                                width: 95%;
+                                                                display: flex;
+                                                                align-items: center;
+                                                                gap: 40px;
+                                                                margin-bottom: 10px;
+                                                                img {
+                                                                    width: 10%;
+                                                                    border-radius: 5px;
+                                                                }
+                                                                .text {
+                                                                    div {
+                                                                        p {
+                                                                            color: #4d4d4d;
+                                                                            text-align: left;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            
+                                                            .viewall {
+                                                                padding: 30px;
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                h2 {
+                                                                    font-size: 28px;
+                                                                }
+                                                            }
+                                                            
+                                                            .text {
+                                                                display: flex;
+                                                                align-items: center;
+                                                                justify-content: space-between;
+                                                                width: 100%;
+                                                            }
+                                                            
+                                                            .reviewScore {
+                                                                background-color: #ffddb2;
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                padding: 30px;
+                                                                padding-left: 50px;
+                                                                h2 {
+                                                                    padding-left: 70px;
+                                                                    font-size: 25px;
+                                                                }
+                                                            }
+                                                            
+                                                            body {
+                                                                font-family: Arial, sans-serif;
+                                                                margin: 0;
+                                                                padding: 0;
+                                                                background-color: #f8efe9;
+                                                            }
+                                                            
+                                                            .reviews {
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                min-height: 100vh;
+                                                            }
+                                                            
+                                                            .content {
+                                                                flex: 1;
+                                                                padding: 20px;
+                                                                h2 {
+                                                                    font-size: 24px;
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+                                                                }
+                                                                .overall-rating {
+                                                                    margin-top: 20px;
+                                                                    h3 {
+                                                                        font-size: 48px;
+                                                                        display: flex;
+                                                                        align-items: center;
+                                                                        span {
+                                                                            font-size: 24px;
+                                                                            color: orange;
+                                                                            margin-left: 10px;
+                                                                        }
+                                                                    }
+                                                                    .rating-bar {
+                                                                        margin-top: 10px;
+                                                                        .stars {
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            margin-bottom: 5px;
+                                                                            span {
+                                                                                width: 60px;
+                                                                            }
+                                                                            .bar {
+                                                                                flex: 1;
+                                                                                height: 10px;
+                                                                                background-color: #ccc;
+                                                                                margin: 0 10px;
+                                                                                &.full {
+                                                                                    background-color: orange;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                                .review-list {
+                                                                    margin-top: 40px;
+                                                                    h3 {
+                                                                        margin-bottom: 20px;
+                                                                    }
+                                                                    .review {
+                                                                        margin-bottom: 20px;
+                                                                        padding-bottom: 20px;
+                                                                        border-bottom: 1px solid #ccc;
+                                                                        .stars {
+                                                                            color: orange;
+                                                                            font-size: 20px;
+                                                                        }
+                                                                        h4 {
+                                                                            font-weight: bold;
+                                                                            margin: 10px 0;
+                                                                            span {
+                                                                                font-weight: normal;
+                                                                                color: #555;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }.income {
+                                                                padding: 20px;
+                                                              }
+                                                              
+                                                              .income h1, .income h2, .income h3, .income p {
+                                                                margin: 0 0 10px;
+                                                              }
+                                                              
+                                                              .income a {
+                                                                text-decoration: underline;
+                                                                color: #333;
+                                                              }
+                                                              
+                                                              .transactions {
+                                                                margin: 20px 0;
+                                                              }
+                                                              
+                                                              .transaction {
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                background-color: #FFF;
+                                                                padding: 10px;
+                                                                margin: 10px 0;
+                                                                border-radius: 5px;
+                                                                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                                                              }
+                                                              
+                                                              .transaction .amount {
+                                                                font-size: 20px;
+                                                                font-weight: bold;
+                                                              }
+                                                              
+                                                              .transaction .date {
+                                                                font-size: 16px;
+                                                                color: #888;
+                                                              }
+                                                              
+
+.content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        span {
+            font-size: 1rem;
+            a {
+                text-decoration: underline;
+                color: #333;
+            }
+        }
+    }
+    .overall-rating {
+        margin-bottom: 20px;
+        h3 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            span {
+                font-size: 1rem;
+                color: #666;
+            }
+        }
+        .rating-bar {
+            .stars {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                span {
+                    width: 70px;
+                    font-size: 0.9rem;
+                }
+                .bar {
+                    flex-grow: 1;
+                    height: 8px;
+                    margin: 0 10px;
+                    background-color: #ddd;
+                    border-radius: 5px;
+                    &.full {
+                        background-color: #ffa500;
+                    }
+                }
+            }
+        }
+    }
+    .review-list {
+        h3 {
+            font-size: 1.25rem;
+            margin-bottom: 15px;
+        }
+        .review {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            .stars {
+                color: #ffa500;
+                font-size: 1rem;
+                margin-bottom: 5px;
+            }
+            h4 {
+                font-size: 1rem;
+                margin-bottom: 5px;
+                span {
+                    font-size: 0.9rem;
+                    color: #666;
+                }
+            }
+            p {
+                font-size: 0.9rem;
+                color: #333;
+            }
+        }
+    }
+}
+
+.Tabs {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 1rem;
+        color: #333;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover {
+            background-color: #f0f0f0;
+        }
+        &.active {
+            background-color: #ffa500;
+            color: white;
+        }
+    }
+}
