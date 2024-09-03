@@ -13,7 +13,7 @@ const DreamCard = () => {
                     <img src={card.image} alt="" />
                 </div>
                 <div className="stuff">
-                    <button>{card.btn}</button>
+                    <button className={card.class}>{card.btn}</button>
                     <h2>{card.tittle}</h2>
                     <h3>{card.price}<span>{card.day}</span></h3>
                     <p>{card.desc}</p>

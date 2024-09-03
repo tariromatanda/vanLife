@@ -30,10 +30,10 @@ const Beachbuum = () => {
                 </div>
             </div>
             <div className="tabscontainer">
-                <ul>
+                <ul className='tab active-tab'>
                     <li onClick={() => setActiveTab("details")}>Details</li>
-                    <li  onClick={() => setActiveTab("pricing")}>Pricing</li>
-                    <li  onClick={() => setActiveTab("photos")}>Photos</li>
+                    <li onClick={() => setActiveTab("pricing")}>Pricing</li>
+                    <li onClick={() => setActiveTab("photos")}>Photos</li>
                 </ul>
                 {activeTab === "details" && (
                     <div className='details'>

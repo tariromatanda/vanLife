@@ -10,6 +10,7 @@ const data = {
             image: simple,
             tittle: 'Modest Explorer',
             btn: 'Simple',
+            class:'simple-only',
             tittle2: '$60',
             desc: '/day',
             link: '/vans/van1'
@@ -17,7 +18,8 @@ const data = {
         {
             image: beach,
             tittle: 'Beach Bum',
-            btn: 'Rugged',
+            btn1: 'Rugged',
+            class:'ruggedd-only',
             tittle2: '$80',
             desc: '/day',
             link: '/vans/van2',
@@ -27,7 +29,8 @@ const data = {
 
             image: luxury,
             tittle: 'Reliable Red',
-            btn: 'Luxury',
+            btn2: 'Luxury',
+class:'luxury-only',
             tittle2: '$100',
             desc: '/day',
             link: '/vans/van3'
@@ -36,6 +39,7 @@ const data = {
             image: dream,
             tittle: 'Dreamfinder',
             btn: 'Simple',
+            class:'simple-only',
             tittle2: '$65',
             desc: '/day',
             link: '/vans/van4'
@@ -43,7 +47,8 @@ const data = {
         {
             image: luxu,
             tittle: 'The Cruiser',
-            btn: 'Luxury',
+            btn2: 'Luxury',
+            class:'luxury-only',
             tittle2: '$120',
             desc: '/day',
             link: '/vans/van5'
@@ -53,7 +58,8 @@ const data = {
         {
             image: green,
             tittle: 'Green Wonder',
-            btn: 'Rugged',
+            btn1: 'Rugged',
+            class:'ruggedd-only',
             tittle2: '$70',
             desc: '/day',
             link: '/vans/van6'

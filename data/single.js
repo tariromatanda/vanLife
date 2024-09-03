@@ -4,6 +4,7 @@ const single = {
         {
             image: cream,
             btn: 'Simple',
+            class: 'simplee-only',
             tittle:'Modest explorer',
             price: '$60',
             day: '/day',

@@ -4,6 +4,7 @@ const reds = {
         {
             image: reliable,
             btn: 'Luxury',
+            class:'luxuryy-only',
             tittle:'Reliable Red',
             price: '$100',
             day: '/day',

@@ -6,7 +6,7 @@ const VanCards = () => {
         <>
             {data && data.VanCards.map(card => {
                 return (
-                    <Link to={card.link}className="VanCards">
+                    <Link to={card.link} className="VanCards">
                        
 
                             <div className="img">
@@ -15,7 +15,7 @@ const VanCards = () => {
                             <div className="textBox">
                                 <div className="first">
                                     <h2>{card.tittle}</h2>
-                                    <button>{card.btn}</button>
+                                    <button className={card.class}>{card.btn}{card.btn1}{card.btn2}</button>
                                 </div>
                                 <div className="day">
                                     <h3>{card.tittle2}</h3>

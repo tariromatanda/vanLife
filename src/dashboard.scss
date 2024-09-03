@@ -3,6 +3,18 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            a{
+                color: #000;
+                text-decoration: none;
+            }
+            li:active{
+                text-decoration: underline 3px solid;
+                font-weight: 800;
+                &:hover{
+                    text-decoration: underline 3px solid;
+                font-weight: 800;
+                }
+            }
             body {
                 @media (max-width: 425px) {
                     ul {
@@ -50,7 +62,7 @@
                                     text-decoration: underline;
                                 }
                             }
-                            &:active {}
+                          
                             li {
                                 cursor: pointer;
                                 //   padding: 10px 20px;
@@ -532,103 +544,108 @@
             }
             .listedContainer {
                 display: none;
+            
             }
-            .arrow {
-                padding: 50px;
-                display: flex;
-                align-items: center;
-                width: 100%;
-                gap: 5px;
-                img {
-                    width: 1%;
-                }
+            .active-listedContainer{
+                display: block;
+           
             }
-            .xplorer {
-                margin: 40px 40px 0px 40px;
-                border-radius: 20px 20px 0px 0px;
-                background: #fff;
-                padding: 30px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                .cream {
-                    width: 100%;
-                    img {
-                        width: 50%;
-                    }
-                }
-                .sixty {
-                    width: 100%;
-                    position: relative;
-                    right: 240px;
-                    button {
-                        padding: 10px 20px;
-                        font-size: 20px;
-                        background: #e17856;
-                        color: #fff;
-                        font-weight: 700;
-                        border: none;
-                        border-radius: 10px;
-                    }
-                    .rug {
-                        background: #115c57;
-                    }
-                    h1 {
-                        margin: 40px 0pc;
-                        font-weight: 900;
-                        font-size: 35px;
-                    }
-                    h2 {
-                        margin: 40px 0px;
-                        font-weight: 900;
-                        font-size: 30px;
-                        span {
-                            font-weight: 400;
-                        }
-                    }
-                }
-            }
-            .tabscontainer {
-                background: #fff;
-                margin: 0px 40px 40px 40px;
-                border-radius: 0px 0px 40px 40px;
-                display: flex;
-                flex-direction: column;
-                .details {
-                    padding: 30px;
-                    h2 {
-                        margin-top: 30px;
-                        font-size: 30px;
-                        font-weight: 800;
-                        span {
-                            font-weight: 400;
-                        }
-                    }
-                    p {
-                        margin: 20px 0px;
-                        font-size: 20px;
-                        font-weight: 800;
-                        width: 80%;
-                        span {
-                            font-weight: 400;
-                        }
-                    }
-                }
-                .pricing {
-                    padding: 50px 30px;
-                    h2 {
-                        margin-top: 30px;
-                        font-size: 30px;
-                        font-weight: 800;
-                        span {
-                            font-weight: 400;
-                        }
-                    }
-                }
-                .photos {
-                    padding: 50px 30px;
-                }
-            }
+            // .arrow {
+            //     padding: 50px;
+            //     display: flex;
+            //     align-items: center;
+            //     width: 100%;
+            //     gap: 5px;
+            //     img {
+            //         width: 1%;
+            //     }
+            // }
+            // .xplorer {
+            //     margin: 40px 40px 0px 40px;
+            //     border-radius: 20px 20px 0px 0px;
+            //     background: #fff;
+            //     padding: 30px;
+            //     display: flex;
+            //     align-items: center;
+            //     justify-content: center;
+            //     .cream {
+            //         width: 100%;
+            //         img {
+            //             width: 50%;
+            //         }
+            //     }
+            //     .sixty {
+            //         width: 100%;
+            //         position: relative;
+            //         right: 240px;
+            //         button {
+            //             padding: 10px 20px;
+            //             font-size: 20px;
+            //             background: #e17856;
+            //             color: #fff;
+            //             font-weight: 700;
+            //             border: none;
+            //             border-radius: 10px;
+            //         }
+            //         .rug {
+            //             background: #115c57;
+            //         }
+            //         h1 {
+            //             margin: 40px 0pc;
+            //             font-weight: 900;
+            //             font-size: 35px;
+            //         }
+            //         h2 {
+            //             margin: 40px 0px;
+            //             font-weight: 900;
+            //             font-size: 30px;
+            //             span {
+            //                 font-weight: 400;
+            //             }
+            //         }
+            //     }
+            // }
+            // .tabscontainer {
+            //     background: #fff;
+            //     margin: 0px 40px 40px 40px;
+            //     border-radius: 0px 0px 40px 40px;
+            //     display: flex;
+            //     flex-direction: column;
+            //     .details {
+            //         padding: 30px;
+            //         h2 {
+            //             margin-top: 30px;
+            //             font-size: 30px;
+            //             font-weight: 800;
+            //             span {
+            //                 font-weight: 400;
+            //             }
+            //         }
+            //         p {
+            //             margin: 20px 0px;
+            //             font-size: 20px;
+            //             font-weight: 800;
+            //             width: 80%;
+            //             span {
+            //                 font-weight: 400;
+            //             }
+            //         }
+            //     }
+            //     .pricing {
+            //         padding: 50px 30px;
+            //         h2 {
+            //             margin-top: 30px;
+            //             font-size: 30px;
+            //             font-weight: 800;
+            //             span {
+            //                 font-weight: 400;
+            //             }
+            //         }
+            //     }
+            //     .photos {
+            //         padding: 50px 30px;
+            //     }
+            // }
             .transaction .date {
                 font-size: 16px;
                 color: #888;
@@ -697,6 +714,25 @@
                 border-radius: 0px 0px 40px 40px;
                 display: flex;
                 flex-direction: column;
+                
+                .tab{
+                
+                    display: flex;
+                    padding: 0px 30px;
+                    list-style: none;
+                    width: 30%;
+                    cursor: pointer;
+                    justify-content: space-between;
+                 .list{
+                    .active-list{
+                        text-decoration: underline;
+                                           }
+                 }
+         
+                  
+                               
+                          }
+               
                 .details {
                     padding: 30px;
                     h2 {
