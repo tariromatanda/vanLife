@@ -15,7 +15,7 @@ const GreenWonder = () => {
             <ul className="Tabs">
                 <li onClick={() => setActiveTab("dashboard")}>Dashboard</li>
                 <li onClick={() => setActiveTab("income")}>Income</li>
-                <li onClick={() => setActiveTab("modest")}>Vans</li>
+                <li onClick={() => setActiveTab("vans")}>Vans</li>
                 <li onClick={() => setActiveTab("reviews")}>Reviews</li>
             </ul>
             {activeTab === "dashboard" && (
@@ -93,10 +93,10 @@ const GreenWonder = () => {
                 </div>
             )}
 
-            {activeTab === "modest" && (
+            {activeTab === "vans" && (
                 <div>
                     <Greenwonderr/>
-                    <div className="listedContainer">
+                    <div className="listedContainer active-listedContainer">
                         <div className="viewall">
                             <h2>Your listed van</h2>
                             

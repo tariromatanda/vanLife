@@ -30,7 +30,7 @@ const toggleTab = (index) => {
                 </div>
             </div>
             <div className="tabscontainer">
-                <ul>
+                <ul className='tab active-tab'>
                     <li onClick={() => setActiveTab("details")}>Details</li>
                     <li onClick={() => setActiveTab("pricing")}>Pricing</li>
                     <li onClick={() => setActiveTab("photos")}>Photos</li>

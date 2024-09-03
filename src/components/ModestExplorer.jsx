@@ -13,7 +13,7 @@ const ModestExplorer = () => {
     }
     return (
         <div>
-            <div className= {toogleState === 'dashboard' ? 'vans' : 'vans'} onClick={() => toggleTab('vans')} >
+            <div className= {toogleState === 'vans' ? 'Dashboard' : 'vans'} onClick={() => toggleTab('vans')} >
             <div className="arrow">
                 <img src={all} alt="" />
                 <a href="">Back to all vans</a>
@@ -32,7 +32,7 @@ const ModestExplorer = () => {
                 </div>
             </div>
             <div className="tabscontainer">
-                <ul>
+                <ul className='tab active-tab'>
                     <li onClick={() => setActiveTab("details")}>Details</li>
                     <li  onClick={() => setActiveTab("pricing")}>Pricing</li>
                     <li  onClick={() => setActiveTab("photos")}>Photos</li>

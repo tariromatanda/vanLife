@@ -6,8 +6,7 @@ import About from './pages/About'
 import Vans from './pages/Vans'
 import Footer from './components/Footer'
 
-import LuxuryVan from './pages/LuxuryVan'
-import RuggedVan from './pages/RuggedVan'
+
 import Van from './pages/vans/Van'
 import Van2 from './pages/vans/Van2'
 import Van3 from './pages/vans/Van3'
@@ -30,8 +29,7 @@ const App = () => {
           <Route exact path='/about' element={<About />} />
           <Route exact path='/vans' element={<Vans />} />
           <Route exact path='/signs' element={<Signs />} />
-          <Route exact path='/luxuryvan' element={<LuxuryVan />} />
-          <Route exact path='/ruggedvan' element={<RuggedVan/>} />
+         
           <Route exact path='/vans/van1' element={<Van/>} />
           <Route exact path='/vans/van2' element={<Van2/>} />
           <Route exact path='/vans/van3' element={<Van3/>} />

@@ -5,6 +5,7 @@ const beach = {
             image: beachBum,
             btn: 'Rugged',
             tittle:'Beach Bum',
+            class: 'rugedd-only',
             price: '$80',
             day: '/day',
             desc: 'Beach Bum is a van inspired by surfers and travelers. It was created to be a portable home away from home, but with some cool features in it you wont find in an ordinary camper.',
